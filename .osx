@@ -1,29 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @erikjms
-
-29
-245
-
-    36
-
-kevinSuttle/OSXDefaults
-Code
-Issues 24
-Pull requests 0
-Wiki
-Pulse
-Graphs
-OSXDefaults/.osx
-947f475 on 15 Aug 2015
-@kevinSuttle kevinSuttle Ref: 605a0102
-executable file 836 lines (627 sloc) 50.4 KB
 #!/usr/bin/env bash
 
 # ~/.osx — https://mths.be/osx
@@ -846,8 +820,3 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
-
-    Status API Training Shop Blog About 
-
-    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
-
